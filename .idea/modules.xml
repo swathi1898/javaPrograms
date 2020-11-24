@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CharAndBoolean/CharAndBoolean.iml" filepath="$PROJECT_DIR$/CharAndBoolean/CharAndBoolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" filepath="$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForLoop/ForLoop.iml" filepath="$PROJECT_DIR$/ForLoop/ForLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sum3and5/Sum3and5.iml" filepath="$PROJECT_DIR$/Sum3and5/Sum3and5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/byteShortint/byteShortint.iml" filepath="$PROJECT_DIR$/byteShortint/byteShortint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coding_exercise/coding_exercise.iml" filepath="$PROJECT_DIR$/coding_exercise/coding_exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dayOfTheWeekChallenge/dayOfTheWeekChallenge.iml" filepath="$PROJECT_DIR$/dayOfTheWeekChallenge/dayOfTheWeekChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloWorld/helloWorld.iml" filepath="$PROJECT_DIR$/helloWorld/helloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaPrograms.iml" filepath="$PROJECT_DIR$/.idea/javaPrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/method_overloading/method_overloading.iml" filepath="$PROJECT_DIR$/method_overloading/method_overloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switch/switch.iml" filepath="$PROJECT_DIR$/switch/switch.iml" />
+    </modules>
+  </component>
+</project>
