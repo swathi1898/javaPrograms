@@ -1,6 +1,8 @@
 public class SumOdd {
     public static void main(String[] args) {
-        sumOdd(1,5);
+        System.out.println(isOdd(0));
+        System.out.println(sumOdd(1,100));
+
     }
     public static boolean isOdd(int number){
         if(number>0){
@@ -12,13 +14,16 @@ public class SumOdd {
         }return false;
     }
     public static int sumOdd(int start, int end){
-        for(int i=start; i<=end;i++){
-            if(isOdd(i)){
-                if(end>=start && (start>0) &&(end>0)){
-
-                }return -1;
+        if(end>=start && (start>0) &&(end>0)){
+            int sum = 0;
+            for(int i=start; i<=end;i++){
+                if(isOdd(i)){
+                    sum += i;
                 }
             }
+            return sum;
+        }
+
         return -1;
 
     }
