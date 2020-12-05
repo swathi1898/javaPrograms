@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Pages printed was "+ printPages+" new total print count for printer "+ printer.getNumberOfPagesPrinted());
 
 
-        System.out.println(""+printer.addToner(5));
+        System.out.println(""+printer.addToner(60));
 
     }
 }
