@@ -95,5 +95,8 @@ public class Main {
         System.out.println("cuboid.area "+ cuboid.getArea());
         System.out.println("cuboid.height "+ cuboid.getHeight());
         System.out.println("cuboid.vol "+ cuboid.getVolume());
+
+
+
     }
 }
