@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab6a792b-59fb-4703-999a-e1a3bd281f64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../OOP_Composition/src/com/swathi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_Composition/src/com/swathi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP_Composition/src/com/swathi/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP_Composition/src/com/swathi/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListsAndArrayLists/src/com/swathi/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListsAndArrayLists/src/com/swathi/GroceryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListsAndArrayLists/src/com/swathi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListsAndArrayLists/src/com/swathi/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,10 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -77,6 +81,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="829" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1606776274493">
