@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="game">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../PractiseProgram_Packages/out/artifacts/PractiseProgram_Packages_jar/PractiseProgram_Packages.jar!/com/example/game" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
