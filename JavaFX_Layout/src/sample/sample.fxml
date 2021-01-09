@@ -1,0 +1,44 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<!--<GridPane fx:controller="sample.Controller"-->
+<!--          xmlns:fx="http://javafx.com/fxml"  alignment="top_center" hgap="10" vgap="10" gridLinesVisible="true">-->
+
+<!--    <Button text="one" textFill="blue" GridPane.rowIndex="0" GridPane.columnIndex="0"/>-->
+<!--    <Button text="two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>-->
+<!--    <Button text="three" GridPane.rowIndex="0" GridPane.columnIndex="2"/>-->
+<!--    <Button text="four" GridPane.rowIndex="0" GridPane.columnIndex="3"/>-->
+<!--    <Button text="five" GridPane.rowIndex="0" GridPane.columnIndex="4"/>-->
+<!--</GridPane>-->
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <Label text="This is the top position" BorderPane.alignment="CENTER" style="-fx-border-color: red; -fx-border-width: 3; -fx-border-style: dashed;"/>
+    </top>
+    <bottom>
+        <HBox  alignment="top_right"
+               >
+            <padding>
+                <Insets top="10" right="20"/>
+            </padding>
+
+            <Button text="Okay"  prefWidth="90">
+                <graphic>
+                    <ImageView>
+                        <Image url="@/jlfgr-1_0.jar/toolbarButtonGraphics/general/TipOfTheDay24.gif"/>
+                    </ImageView>
+                </graphic>
+            </Button>
+<!--            <Button text="Cancel" prefWidth="90"/>-->
+<!--            <Button text="Edit" prefWidth="90"/>-->
+        </HBox>
+    </bottom>
+</BorderPane>

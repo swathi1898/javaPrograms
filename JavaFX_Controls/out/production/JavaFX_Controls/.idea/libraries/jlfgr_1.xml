@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jlfgr-1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/graphicsLook.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

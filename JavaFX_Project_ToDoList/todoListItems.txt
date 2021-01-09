@@ -1,0 +1,10 @@
+Mail birthday card	Buy a gift card for Jack	05--04--2021
+Parlor Appointment	Visit Parlor in West coast street	10--01--2021
+Dance class	Go to Dance Class and register for Classical dance	01--02--2021
+Buy Groceries	Buy eggs, Bread, Veggies	03--02--2021
+Update the Blog	add the recent works in the blog  	20--01--2021
+My new todo item	this is my new to do item.	11--01--2021
+new item	this is new item	05--02--2021
+another item	another item in the list.	07--01--2021
+testOne	this is test one	15--06--2021
+long item	Lorem ipsum dolor sit amet, 07--01--2021

@@ -8,7 +8,7 @@ public class Factorial {
         System.out.println("Factorial of 3 "+ factorial(3));
         System.out.println("Factorial of 4 "+ factorial(4));
         System.out.println("Factorial of 5 "+ factorial(5));
-        System.out.println("Factorial of 6 "+ factorial(6));
+        System.out.println("Factorial of 10 "+ factorial(10));
     }
     public static int factorial(int n) {
         if (n >= 1) {
@@ -18,4 +18,6 @@ public class Factorial {
         }
         return -1;
     }
+
+
 }
