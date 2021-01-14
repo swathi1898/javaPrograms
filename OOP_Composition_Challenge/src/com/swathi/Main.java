@@ -9,4 +9,7 @@ public class Main {
     Room bedroom = new Room("BedRoom",bed,lamp,floor);
     bedroom.make();
     }
+
+
+
 }
