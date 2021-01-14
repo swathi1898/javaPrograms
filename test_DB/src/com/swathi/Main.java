@@ -1,9 +1,6 @@
 package com.swathi;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class Main {
         public static final String DB_NAME = "testOne.db";
@@ -31,8 +28,13 @@ public class Main {
             insertContacts(statement,"Krishna",4512,"krish@email.com");
             insertContacts(statement,"Radha",7754,"radha@email.com");
 
-
-
+            ResultSet result = statement.executeQuery("SELECT * FROM "+ TABLE_CONTACTS);
+            while (result.next()){
+                System.out.println(result.getString(COLUMN_NAME)+" | "+
+                                    result.getString(COLUMN_PHONE)+" | "+
+                                    result.getString(COLUMN_EMAIL));
+            }
+            result.close();
             statement.close();
             conn.close();
 
@@ -48,6 +50,6 @@ public class Main {
                 " ("+COLUMN_NAME+", "+COLUMN_PHONE+", "+COLUMN_EMAIL+")"+
                 " VALUES('"+name+"',"+phone+",'"+email+"')");
     }
-    
+
 
 }
