@@ -48,7 +48,7 @@ public class TodoData {
 
         String input;
         try{
-            while ((input = br.readLine())!= null){
+            while ((input = br.readLine())== null){
                 String[] itemPieces = input.split("\t");
                 String shortDescription = itemPieces[0];
                 String details = itemPieces[1];
@@ -60,9 +60,7 @@ public class TodoData {
 
             }
         }finally {
-            if ( br != null){
                 br.close();
-            }
         }
     }
 
