@@ -4,10 +4,14 @@ import com.swathi.datamodel.TodoData;
 import com.swathi.datamodel.TodoItem;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.control.*;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.util.Callback;
@@ -31,6 +35,8 @@ public class Controller {
     private Label deadLineLabel;
     @FXML
     private BorderPane mainBorderPane;
+    @FXML
+    private ContextMenu listContextMenu;
 
     public void initialize(){
 //        TodoItem item1 =  new TodoItem("Cleaning room","routine clean work and change window curtains",
@@ -49,7 +55,17 @@ public class Controller {
 //
 //        TodoData.getInstance().setTodoItems(todoItems);
 
-       todoListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<TodoItem>() {
+        listContextMenu = new ContextMenu();
+        MenuItem deleteMenuItem = new MenuItem("Delete");
+        deleteMenuItem.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                TodoItem item = todoListView.getSelectionModel().getSelectedItem();
+                deleteItem(item);
+            }
+        });
+       listContextMenu.getItems().addAll(deleteMenuItem);
+        todoListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<TodoItem>() {
            @Override
            public void changed(ObservableValue<? extends TodoItem> observableValue, TodoItem todoItem, TodoItem t1) {
                if(t1 != null){
@@ -84,6 +100,14 @@ public class Controller {
                        }
                    }
                };
+               cell.emptyProperty().addListener(
+                       (obs, wasEmpty, isNowEmpty) -> {
+                           if(isNowEmpty){
+                               cell.setContextMenu(null);
+                           }else {
+                               cell.setContextMenu(listContextMenu);
+                           }
+                       });
                return cell;
            }
        });
@@ -118,6 +142,16 @@ public void showNewItemDialog(){
 }
 
     @FXML
+    public void handleKeyPressed(KeyEvent keyEvent){
+        TodoItem selectedItem = todoListView.getSelectionModel().getSelectedItem();
+        if(selectedItem != null){
+            if(keyEvent.getCode().equals(KeyCode.DELETE)){
+                deleteItem(selectedItem);
+            }
+        }
+    }
+
+    @FXML
     public void handleClickListView(){
         TodoItem item = todoListView.getSelectionModel().getSelectedItem();
 
@@ -130,5 +164,16 @@ public void showNewItemDialog(){
         deadLineLabel.setText(item.getDeadline().toString());
     }
 
+    public void deleteItem(TodoItem item){
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Delete Todo Item");
+        alert.setHeaderText("Delete item: "+ item.getShortDescription());
+        alert.setContentText("Are you sure? Press Ok to confirm, or Cancel to back out. ");
+        Optional<ButtonType> result = alert.showAndWait();
+
+        if(result.isPresent() && (result.get() == ButtonType.OK)){
+            TodoData.getInstance().deleteTodoItem(item);
+        }
+    }
 
 }
