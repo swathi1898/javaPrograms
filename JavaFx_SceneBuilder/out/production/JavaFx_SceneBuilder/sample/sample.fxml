@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="212.0" prefWidth="351.0" stylesheets="@../style.css" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <HBox spacing="5.0" GridPane.rowIndex="1">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleAction" style="-fx-text-fill: white;" text="Button1" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Button2" />
+            <Button mnemonicParsing="false" text="Button3" />
+         </children>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+      </HBox>
+      <Label fx:id="lable" text="My Label" />
+   </children>
+</GridPane>
