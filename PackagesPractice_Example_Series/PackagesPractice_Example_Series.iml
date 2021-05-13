@@ -7,6 +7,63 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="PackagesPractice_Examples" level="project" />
+    <orderEntry type="module" module-name="Array" />
+    <orderEntry type="module" module-name="EchoServer" />
+    <orderEntry type="module" module-name="method_overloading" />
+    <orderEntry type="module" module-name="linkedList" />
+    <orderEntry type="module" module-name="byteShortint" />
+    <orderEntry type="module" module-name="test_DB" />
+    <orderEntry type="module" module-name="ReadingUserInputChallenge" />
+    <orderEntry type="module" module-name="coding_exercise_Composition_OOP" />
+    <orderEntry type="module" module-name="FloatAndDouble" />
+    <orderEntry type="module" module-name="sortedCollection" />
+    <orderEntry type="module" module-name="OOP_Challenge" />
+    <orderEntry type="module" module-name="dayOfTheWeekChallenge" />
+    <orderEntry type="module" module-name="Interface" />
+    <orderEntry type="module" module-name="EchoClient" />
+    <orderEntry type="module" module-name="Strings" />
+    <orderEntry type="module" module-name="MinElementChallenge" />
+    <orderEntry type="module" module-name="ListsAndArrayLists" />
+    <orderEntry type="module" module-name="OOP_Classes" />
+    <orderEntry type="module" module-name="Abstraction" />
+    <orderEntry type="module" module-name="Generics_Challenge" />
+    <orderEntry type="module" module-name="OOP_Inheritance" />
+    <orderEntry type="module" module-name="Operators" />
+    <orderEntry type="module" module-name="ArrayListChallenge_MobilePhone" />
+    <orderEntry type="module" module-name="InputOutput" />
+    <orderEntry type="module" module-name="reverseArray" />
+    <orderEntry type="module" module-name="coding_exercise_OOP" />
+    <orderEntry type="module" module-name="Practice_Problems" />
+    <orderEntry type="module" module-name="OOP_EncapsulationChallenge" />
+    <orderEntry type="module" module-name="OOP_InheritanceChallenge" />
+    <orderEntry type="module" module-name="OOP_Polymorphism" />
+    <orderEntry type="module" module-name="MaxAndMinInputChallenge" />
+    <orderEntry type="module" module-name="Methods" />
+    <orderEntry type="module" module-name="MusicDB" />
+    <orderEntry type="module" module-name="WhileAndDoWhile" />
+    <orderEntry type="module" module-name="setAndHashSet" />
+    <orderEntry type="module" module-name="Interfaces_Challenge" />
+    <orderEntry type="module" module-name="coding_exercise_Polymorphism_OOP" />
+    <orderEntry type="module" module-name="Abstraction_Challenge" />
+    <orderEntry type="module" module-name="InnerClasses" />
+    <orderEntry type="module" module-name="AutoboxingAndUnboxing_Challenge" />
+    <orderEntry type="module" module-name="linkedList_Challenge" />
+    <orderEntry type="module" module-name="coding_exercise_Encapsulation_OOP" />
+    <orderEntry type="module" module-name="DigitSum" />
+    <orderEntry type="module" module-name="ForLoop" />
+    <orderEntry type="module" module-name="Map_adventure" />
+    <orderEntry type="module" module-name="PackagesPractice_Examples" />
+    <orderEntry type="module" module-name="ParsingValueAsStringAndReadingInputData" />
+    <orderEntry type="module" module-name="SecondsAndMinutes" />
+    <orderEntry type="module" module-name="OOP_Composition_Challenge" />
+    <orderEntry type="module" module-name="OOP_PolymorphismChallenge" />
+    <orderEntry type="module" module-name="GameTesting" />
+    <orderEntry type="module" module-name="Sum3and5" />
+    <orderEntry type="module" module-name="Generics" />
+    <orderEntry type="module" module-name="OOP_Composition" />
+    <orderEntry type="module" module-name="DataStructures" />
+    <orderEntry type="module" module-name="OOP_ConstructorChallengeBankAccount" />
+    <orderEntry type="module" module-name="CharAndBoolean" />
+    <orderEntry type="module" module-name="switch" />
   </component>
 </module>

@@ -7,12 +7,9 @@ public class SwapTwoNumbers {
     }
 
     public static void swapNumbers(int a, int b){
-        int x;
-        int y;
-        x=a;
-        y= b;
-        a=b;
-        b=x;
+        int c= a;
+        a = b;
+        b = c;
         System.out.println("numbers is swapped into "+a+" & "+b);
     }
     public static void swapNum(int a,int b){

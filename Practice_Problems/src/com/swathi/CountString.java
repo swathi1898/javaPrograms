@@ -1,7 +1,5 @@
 package com.swathi;
 
-import java.util.Arrays;
-
 public class CountString {
     public static void main(String[] args) {
         countString("name");
@@ -24,7 +22,14 @@ public class CountString {
         byte[] st = str.getBytes();
 
         for(int i =0;i<st.length;i++) {
-            for (int j = i + 1; j < st.length; j++) {
+//            int count = 1;
+//            if((str.charAt(i) == str.charAt(count+i)) && (count+i)<st.length ){
+//                return false;
+//            }else{
+//                return true;
+//            }
+            for (int j = i + 1; j < st.length;j++) {
+                System.out.println("i:"+str.charAt(i) +" j:"+str.charAt(j));
                 if (str.charAt(i) == str.charAt(j)) {
 
                     return false;
@@ -32,5 +37,6 @@ public class CountString {
             }
         }
         return true;
+
     }
 }

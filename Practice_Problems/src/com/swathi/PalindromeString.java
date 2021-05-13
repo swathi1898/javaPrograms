@@ -15,4 +15,5 @@ public class PalindromeString {
         System.out.println(str+" is a palindrome");
     }
 
+
 }

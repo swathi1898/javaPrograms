@@ -22,6 +22,21 @@ public class ReverseString {
         System.out.println(new String(result));
         return true;
     }
+    public static void rev(String s){
+        byte[] a = s.getBytes();
+        byte[] ans = new byte[a.length];
+        if(s.length()<=0){
+            System.out.println("INVALID");
+        }
+        for(int i =0;i<a.length;i++){
+            ans[i] = a[(a.length-i)-1];
+        }
+        System.out.println(new String(ans));
+    }
+
+    public static void main(String[] args) {
+        rev("swa");
+            }
 
 
 }

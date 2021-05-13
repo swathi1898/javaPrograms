@@ -1,6 +1,5 @@
 package com.swathi;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +9,7 @@ public class Main {
     //--------------------------Reverse a string---------------------------------------------------------------------
         System.out.println("enter string ");
         ReverseString string = new ReverseString(scanner.nextLine());
-        string.reverse(string);
+//        string.reverse(string);
 
 
     }
